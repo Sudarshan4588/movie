@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "buildCommand": "npm run build",
+  "devCommand": "npm run dev",
+  "installCommand": "npm install",
+  "framework": "nextjs",
+  "regions": ["iad1"],
+  "env": {
+    "NEXT_PUBLIC_TMDB_API_KEY": "@tmdb-api-key",
+    "JWT_SECRET": "@jwt-secret",
+    "DB_HOST": "@db-host",
+    "DB_PORT": "@db-port",
+    "DB_USER": "@db-user",
+    "DB_PASSWORD": "@db-password",
+    "DB_NAME": "@db-name"
+  }
+}
